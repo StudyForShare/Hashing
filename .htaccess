@@ -1,0 +1,31 @@
+# Disable Directory Browsing 
+Options All -Indexes
+errorDocument 400 "./error/400/"
+errorDocument 401 "./error/401/"
+errorDocument 402 "./error/402/"
+errorDocument 403 "./error/403/"
+errorDocument 404 "./error/404/"
+errorDocument 405 "./error/405/"
+errorDocument 406 "./error/406/"
+errorDocument 407 "./error/407/"
+errorDocument 408 "./error/408/"
+errorDocument 409 "./error/409/"
+errorDocument 410 "./error/410/"
+errorDocument 411 "./error/411/"
+errorDocument 412 "./error/412/"
+errorDocument 413 "./error/413/"
+errorDocument 414 "./error/414/"
+errorDocument 415 "./error/415/"
+errorDocument 416 "./error/416/"
+errorDocument 417 "./error/417/"
+errorDocument 500 "./error/500/"
+errorDocument 501 "./error/501/"
+errorDocument 502 "./error/502/"
+errorDocument 503 "./error/503/"
+errorDocument 504 "./error/504/"
+errorDocument 505 "./error/505/"
+errorDocument 511 "./error/511/"
+RewriteRule ^([^/.]+)/?$ $1.php
+RewriteRule ^([^/.]+)/?$ $1.html
+RewriteRule ^([^/.]+)/?$ $1.htm
+RewriteEngine on
